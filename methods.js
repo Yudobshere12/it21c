@@ -9,3 +9,11 @@ const person = {
   console.log("Age: "  +person.age);
   console.log("Gender: " + person.gender);  
   console.log("-----------------------------------");
+
+    //Class named Person
+class Person {
+    constructor(name, age, gender) {
+        this.name = name;
+        this.age = age;
+        this.gender = gender;
+    }
