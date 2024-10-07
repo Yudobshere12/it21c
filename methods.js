@@ -24,7 +24,7 @@ class Person {
         console.log("Age: "  + this.age);
         console.log("Gender: " + this.gender);
      }
-     
+
       //Solution 2: Display via HTML
     displayViaHTML() {
         const personElement = document.getElementById('person1');
@@ -35,3 +35,6 @@ class Person {
         `;
     }
 }
+
+       // Create an instance of Person
+       const person1 = new Person("Haide", 19, "Female");
