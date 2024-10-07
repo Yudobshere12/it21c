@@ -38,3 +38,6 @@ class Person {
 
        // Create an instance of Person
        const person1 = new Person("Haide", 19, "Female");
+
+       //Calls the method
+person1.displayInfo();
