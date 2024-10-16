@@ -1,17 +1,13 @@
 // voting.js
 
-async function createVotingChart(ctx) {
-    // Fetch data from voting.json
-    const response = await fetch('voting.json');
-    const votingData = await response.json();
-
+function createVotingChart(ctx) {
     return new Chart(ctx, {
         type: 'pie',
         data: {
-            labels: votingData.labels,
+            labels: ['Red', 'Blue', 'Yellow'],
             datasets: [{
                 label: '# of Votes',
-                data: votingData.data,
+                data: [300, 50, 100],
                 backgroundColor: [
                     'rgba(255, 99, 132, 0.2)',
                     'rgba(54, 162, 235, 0.2)',
