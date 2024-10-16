@@ -6,6 +6,9 @@
     "barChart": {
         "labels": ["Red", "Blue", "Yellow", "Green", "Purple", "Orange"],
         "data": [12, 19, 3, 5, 2, 3]
-
+    },
+    "votingChart": {
+        "labels": ["Red", "Blue", "Yellow"],
+        "data": [300, 50, 100]
     }
 }
